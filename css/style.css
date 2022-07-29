@@ -1,0 +1,68 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    flex: 1;
+    padding: 10px;
+}
+.flex-container a {
+    text-decoration: none;
+    color: #343844;
+}
+.flex-container a:hover {
+    text-decoration: underline;
+}
+.container {
+    background: linear-gradient(90deg, #F69430 0%, #F14E29 34.39%, #F3632B 61.22%, #F5832F 79.27%, #F58220 100%);
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+h1 {
+    color: #343844;
+}
+p {
+    color: #343844;
+}
+.login-form {
+    background-color: #E1E1E1;
+    padding: 20px;
+    width: 400px;
+}
+i {
+    background-color: #E65848;
+    color: #FFFFFF;
+    padding: 18px;
+    
+}
+.flex-input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+input[type="text"],
+[type="password"] {
+    padding: 8px;
+    font-size: 20px;
+    width: 350px;
+}
+label {
+    margin-top: 10px;
+    font-size: 20px;
+}
+input[type="button"] {
+    width: 30%;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #E65848;
+    color: #FFFFFF;
+    border: none;
+}
+.end-cnt {
+    text-align: right;
+}
+#type-log-pass {
+    padding-left: 30px;
+}
